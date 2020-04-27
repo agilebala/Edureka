@@ -1,0 +1,17 @@
+class car{
+public int x;
+public int y;
+public int z;
+public void add(int a, int b){
+System.out.println("a+b", a+b);
+public void sub(int a, int b){
+System.out.println("a-b", a-b);
+}
+class x{
+public static void main(String[] args)
+{
+class Car c1 = new Car();
+add(10,20);
+sub(10,20);
+}
+
