@@ -14,11 +14,11 @@ public class Student {
 		college = co;
 		System.out.println("In the constructor with arguments");
 	}
- Student()
+ /*Student()
  {
 	 int count;
 
- }
+ }*/
  
 	public static void main(String[] args) { 
 
