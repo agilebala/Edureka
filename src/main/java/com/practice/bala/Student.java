@@ -19,6 +19,8 @@ public class Student {
 
 		Student student_1 = new Student(10,"john","CS","JMC");
 		System.out.println("Student Name : " +student_1.name);
+		System.out.println("Student No : " +student_1.reg_no);
+		System.out.println("Student College : " +student_1.college);
 	
 	}
  
