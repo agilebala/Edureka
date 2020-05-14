@@ -14,7 +14,12 @@ public class Student {
 		college = co;
 		System.out.println("In the constructor with arguments");
 	}
+ Student()
+ {
+	 int count;
 
+ }
+ 
 	public static void main(String[] args) { 
 
 		Student student_1 = new Student(10,"john","CS","JMC");
