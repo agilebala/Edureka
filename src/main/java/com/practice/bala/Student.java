@@ -1,11 +1,11 @@
-package com.edureka;
-
+package com.practice.bala;
 public class Student {
+
 	int reg_no;
 	String name;
 	String stream;
-	String college; 
-	//Constructor 
+	String college;   
+	//Constructor  
 	Student(int no, String na,String major,String co)
 	{
 		reg_no = no;
@@ -15,15 +15,11 @@ public class Student {
 		System.out.println("In the constructor with arguments");
 	}
 
-	public static void main(String[] args) 
-	{
-	
+	public static void main(String[] args) { 
+
 		Student student_1 = new Student(10,"john","CS","JMC");
 		System.out.println("Student Name : " +student_1.name);
-		System.out.println("Student Stream : " +student_1.stream);
-		System.out.println("Student Info : " +student_1);
-		
 	
 	}
-
+ 
 }
